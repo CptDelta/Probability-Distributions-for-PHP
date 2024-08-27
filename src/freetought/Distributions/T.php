@@ -8,10 +8,10 @@
 * -------------
 * Some work derived (with permission/license) from jStat - Javascript Statistical Library (MIT licensed).
 */
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Accessories\BetaFunction;
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\BetaFunction;
+use freetought\Distributions\Interfaces\DistributionInterface;
 
 class T extends Distribution implements DistributionInterface
 {

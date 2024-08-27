@@ -3,17 +3,17 @@
 * Inverse Normal Distribution - Statistical Distributions for PHP
 * see: https://en.wikipedia.org/wiki/Inverse_Gaussian_distribution#Generating_random_variates_from_an_inverse-Gaussian_distribution
 */
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Accessories\ErfFunction;
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\ErfFunction;
+use freetought\Distributions\Interfaces\DistributionInterface;
 
 require_once dirname(__FILE__) . "/Normal.php";
 require_once dirname(__FILE__) . "/Distribution.php";
 
 /**
  * Class InverseNormal
- * @package gburtini\Distributions
+ * @package freetought\Distributions
  *
  * https://en.wikipedia.org/wiki/Normal-inverse_Gaussian_distribution
  * http://mathworld.wolfram.com/InverseGaussianDistribution.html

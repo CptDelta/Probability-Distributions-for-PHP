@@ -1,8 +1,8 @@
 <?php
 
-namespace gburtini\Distributions\Tests;
+namespace freetought\Distributions\Tests;
 
-use gburtini\Distributions\Accessories\IncompleteGammaFunction;
+use freetought\Distributions\Accessories\IncompleteGammaFunction;
 use PHPUnit\Framework\TestCase;
 
 class IncompleteGammaFunctionTest extends TestCase

@@ -8,11 +8,11 @@
 * Box, Muller 1958 for the rand() method
 * Michael Nickerson (2004), Thomas Ziegler for the icdf function.
 */
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Interfaces\DistributionInterface;
-use gburtini\Distributions\Accessories\ErfFunction;
-//use gburtini\Distributions\Distribution;
+use freetought\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\ErfFunction;
+//use freetought\Distributions\Distribution;
 
 class Normal extends Distribution implements DistributionInterface
 {

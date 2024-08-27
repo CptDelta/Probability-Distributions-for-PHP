@@ -4,10 +4,10 @@
 *
 * Copyright (C) 2015-2018 Giuseppe Burtini.
 */
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Accessories\GammaFunction;
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\GammaFunction;
+use freetought\Distributions\Interfaces\DistributionInterface;
 use phpDocumentor\Reflection\Types\Array_;
 
 class Dirichlet extends Distribution implements DistributionInterface

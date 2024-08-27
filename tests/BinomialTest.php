@@ -1,7 +1,7 @@
 <?php
-require_once dirname(__FILE__) . "/../src/gburtini/Distributions/Binomial.php";
+require_once dirname(__FILE__) . "/../src/freetought/Distributions/Binomial.php";
 
-use gburtini\Distributions\Binomial;
+use freetought\Distributions\Binomial;
 
 class BinomialTest extends PHPUnit_Framework_TestCase
 {
@@ -67,7 +67,7 @@ class BinomialTest extends PHPUnit_Framework_TestCase
     }
 
     public function testRegressionCDFGreaterThanOne() {
-        // issue #38: https://github.com/gburtini/Probability-Distributions-for-PHP/issues/38
+        // issue #38: https://github.com/freetought/Probability-Distributions-for-PHP/issues/38
         $bin1 = new Binomial(10,0.2);
         $cdf1 = $bin1->cdf(10);
         $xxDov = $bin1->icdf($cdf1);

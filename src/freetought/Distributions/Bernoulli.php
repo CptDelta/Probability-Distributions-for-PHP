@@ -4,10 +4,10 @@
     *
     * Copyright (C) 2015-2018 Giuseppe Burtini.
     */
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
 
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Interfaces\DistributionInterface;
 
 class Bernoulli extends Distribution implements DistributionInterface
 {

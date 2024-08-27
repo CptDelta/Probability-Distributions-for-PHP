@@ -1,8 +1,8 @@
 <?php
 
-namespace gburtini\Distributions\Tests;
+namespace freetought\Distributions\Tests;
 
-use gburtini\Distributions\BinomialCI;
+use freetought\Distributions\BinomialCI;
 use PHPUnit\Framework\TestCase;
 
 class BinomialCITest extends TestCase

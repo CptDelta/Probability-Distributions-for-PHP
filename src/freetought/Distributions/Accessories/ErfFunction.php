@@ -6,7 +6,7 @@
  * Time: 23:52
  */
 
-namespace gburtini\Distributions\Accessories;
+namespace freetought\Distributions\Accessories;
 
 
 class ErfFunction

@@ -1,5 +1,5 @@
 <?php
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
 abstract class Distribution
 {

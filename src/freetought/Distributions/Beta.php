@@ -8,7 +8,7 @@
     *
     * Use either as an instance variable or statically.
     *
-    * use gburtini\Distributions\Beta;
+    * use freetought\Distributions\Beta;
     *
     * $beta = new Beta($alpha>0, $beta>0);
     * $beta->pdf($x) = [0,1]
@@ -27,11 +27,11 @@
     */
 
 
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Accessories\GammaFunction;
-use gburtini\Distributions\Accessories\BetaFunction;
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\GammaFunction;
+use freetought\Distributions\Accessories\BetaFunction;
+use freetought\Distributions\Interfaces\DistributionInterface;
 
 class Beta extends Distribution implements DistributionInterface
 {

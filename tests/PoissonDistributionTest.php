@@ -1,8 +1,8 @@
 <?php
 
-namespace gburtini\Distributions\Tests;
+namespace freetought\Distributions\Tests;
 
-use gburtini\Distributions\Poisson;
+use freetought\Distributions\Poisson;
 use PHPUnit\Framework\TestCase;
 use SplFixedArray;
 

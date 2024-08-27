@@ -1,6 +1,6 @@
 <?php
 
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
 // TODO: Document or depreciate and remove this file
 //

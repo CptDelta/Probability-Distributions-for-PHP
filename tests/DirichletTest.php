@@ -6,7 +6,7 @@
  * Time: 21:25
  */
 
-use gburtini\Distributions\Dirichlet;
+use freetought\Distributions\Dirichlet;
 
 class DirichletTest extends PHPUnit_Framework_TestCase
 {

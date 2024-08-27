@@ -1,29 +1,33 @@
 {
   "version": "0.0.4",
-  "name": "gburtini/distributions",
+  "name": "freetought/distributions",
   "description":
-    "PHP implementation of a number of statistical probability distributions: normal, beta, gamma, etc.",
+    "Fork of the abandon Project https://github.com/gburtini/Probability-Distributions-for-PHP. PHP implementation of a number of statistical probability distributions: normal, beta, gamma, etc.",
   "authors": [
     {
       "name": "Giuseppe Burtini",
       "email": "giuseppe@burtini.ca"
+    },
+    {
+      "name": "Jan Lüdtke",
+      "email": "cptdelta@cptdelta.de"
     }
   ],
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "gburtini\\Distributions\\": "src/gburtini/Distributions"
+      "freetought\\Distributions\\": "src/freetought/Distributions"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "gburtini\\Distributions\\Tests\\": "tests"
+      "freetought\\Distributions\\Tests\\": "tests"
     }
   },
   "require": {
-    "php": ">=5.4"
+    "php": ">=8.1"
   },
   "require-dev": {
-    "phpunit/phpunit": "^4.8.36"
+    "phpunit/phpunit": "^11.3"
   }
 }

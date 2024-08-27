@@ -1,5 +1,5 @@
 <?php
-namespace gburtini\Distributions\Accessories;
+namespace freetought\Distributions\Accessories;
 
 class BetaFunction
 {

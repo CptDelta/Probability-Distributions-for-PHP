@@ -1,5 +1,5 @@
 <?php
-namespace gburtini\Distributions\Accessories;
+namespace freetought\Distributions\Accessories;
 
 // these accesory functions are "necessary" to compute many beta and T distribution statistics, but sometimes there's a shortcut that is used instead.
 class GammaFunction

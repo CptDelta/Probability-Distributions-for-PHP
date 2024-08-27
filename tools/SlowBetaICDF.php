@@ -1,6 +1,6 @@
 <?php
-    require_once dirname(__FILE__) . "/../src/gburtini/Distributions/Beta.php";
-    use gburtini\Distributions\Beta;
+    require_once dirname(__FILE__) . "/../src/freetought/Distributions/Beta.php";
+    use freetought\Distributions\Beta;
 
     $N = 1000;
 

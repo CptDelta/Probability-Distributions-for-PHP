@@ -1,8 +1,8 @@
 <?php
 
-namespace gburtini\Distributions\Tests;
+namespace freetought\Distributions\Tests;
 
-use gburtini\Distributions\Binomial;
+use freetought\Distributions\Binomial;
 use PHPUnit\Framework\TestCase;
 use SplFixedArray;
 

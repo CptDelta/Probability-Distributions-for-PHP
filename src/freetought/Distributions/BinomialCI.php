@@ -1,6 +1,6 @@
 <?php
 
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
 class BinomialCI extends Binomial
 {

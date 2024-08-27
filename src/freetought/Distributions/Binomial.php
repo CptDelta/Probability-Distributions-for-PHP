@@ -7,10 +7,10 @@
 * Other credits
 * Original implementation by Frank Wikström.
 */
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Accessories\GammaFunction;
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\GammaFunction;
+use freetought\Distributions\Interfaces\DistributionInterface;
 
 class Binomial extends Distribution implements DistributionInterface
 {

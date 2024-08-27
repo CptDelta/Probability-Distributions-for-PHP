@@ -6,7 +6,7 @@
  * Time: 20:26
  */
 
-use gburtini\Distributions\Gamma;
+use freetought\Distributions\Gamma;
 
 class GammaTest extends PHPUnit_Framework_TestCase
 {

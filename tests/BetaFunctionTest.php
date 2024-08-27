@@ -1,8 +1,8 @@
 <?php
 
-namespace gburtini\Distributions\Tests;
+namespace freetought\Distributions\Tests;
 
-use gburtini\Distributions\Accessories\BetaFunction;
+use freetought\Distributions\Accessories\BetaFunction;
 use PHPUnit\Framework\TestCase;
 
 class BetaFunctionTest extends TestCase

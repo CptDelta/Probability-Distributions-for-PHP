@@ -6,7 +6,7 @@
  *
  * Use either as an instance variable or statically.
  *
- * use gburtini\Distributions\Poisson;
+ * use freetought\Distributions\Poisson;
  *
  * $poisson = new Poisson($lambda>0);
  * $poisson->pdf($x) = [0,1]
@@ -20,11 +20,11 @@
  * -------------
  * Implementation by Frank Wikström.
  */
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Accessories\GammaFunction;
-use gburtini\Distributions\Accessories\IncompleteGammaFunction;
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\GammaFunction;
+use freetought\Distributions\Accessories\IncompleteGammaFunction;
+use freetought\Distributions\Interfaces\DistributionInterface;
 
 class Poisson extends Distribution implements DistributionInterface
 {

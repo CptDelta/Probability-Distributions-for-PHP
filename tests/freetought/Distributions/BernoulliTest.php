@@ -6,7 +6,7 @@
  * Time: 01:47
  */
 
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
 
 class BernoulliTest extends \PHPUnit_Framework_TestCase

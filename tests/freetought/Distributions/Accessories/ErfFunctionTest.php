@@ -6,7 +6,7 @@
  * Time: 23:58
  */
 
-namespace gburtini\Distributions\Accessories;
+namespace freetought\Distributions\Accessories;
 
 
 class ErfFunctionTest extends \PHPUnit_Framework_TestCase

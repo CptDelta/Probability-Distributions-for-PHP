@@ -14,16 +14,16 @@
 * Some work, especially advisory, provided by Graeme Douglas.
 */
 
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Accessories\GammaFunction;
-use gburtini\Distributions\Accessories\IncompleteGammaFunction;
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\GammaFunction;
+use freetought\Distributions\Accessories\IncompleteGammaFunction;
+use freetought\Distributions\Interfaces\DistributionInterface;
 
 /**
  * Class Gamma
  * https://en.wikipedia.org/wiki/Gamma_distribution
- * @package gburtini\Distributions
+ * @package freetought\Distributions
  */
 class Gamma extends Distribution implements DistributionInterface
 {

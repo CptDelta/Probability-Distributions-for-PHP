@@ -5,11 +5,11 @@
 * Copyright (C) 2017-2018 Giuseppe Burtini except where otherwise noted.
 *
 */
-namespace gburtini\Distributions;
+namespace freetought\Distributions;
 
-use gburtini\Distributions\Accessories\GammaFunction;
-use gburtini\Distributions\Accessories\BetaFunction;
-use gburtini\Distributions\Interfaces\DistributionInterface;
+use freetought\Distributions\Accessories\GammaFunction;
+use freetought\Distributions\Accessories\BetaFunction;
+use freetought\Distributions\Interfaces\DistributionInterface;
 
 class Weibull extends Distribution implements DistributionInterface
 {

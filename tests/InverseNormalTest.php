@@ -6,7 +6,7 @@
  * Time: 21:05
  */
 
-use gburtini\Distributions\InverseNormal;
+use freetought\Distributions\InverseNormal;
 
 class InverseNormalTest extends PHPUnit_Framework_TestCase
 {

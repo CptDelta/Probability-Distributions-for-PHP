@@ -1,8 +1,8 @@
 <?php
 
-namespace gburtini\Distributions\Tests;
+namespace freetought\Distributions\Tests;
 
-use gburtini\Distributions\Accessories\GammaFunction;
+use freetought\Distributions\Accessories\GammaFunction;
 use PHPUnit\Framework\TestCase;
 
 class GammaFunctionTest extends TestCase
@@ -52,7 +52,7 @@ class GammaFunctionTest extends TestCase
 
     public function testValidateParameters()
     {
-        $g = new \gburtini\Distributions\Gamma(1, 2);
+        $g = new \freetought\Distributions\Gamma(1, 2);
         $this->setExpectedException('InvalidArgumentException');
         $g::validateParameters(-1, 0);
     }

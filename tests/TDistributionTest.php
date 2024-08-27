@@ -1,8 +1,8 @@
 <?php
 
-namespace gburtini\Distributions\Tests;
+namespace freetought\Distributions\Tests;
 
-use gburtini\Distributions\T;
+use freetought\Distributions\T;
 use PHPUnit\Framework\TestCase;
 
 class TDistributionTest extends TestCase

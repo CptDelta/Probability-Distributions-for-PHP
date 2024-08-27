@@ -6,7 +6,7 @@
  * Time: 20:08
  */
 
-namespace gburtini\Distributions\Interfaces;
+namespace freetought\Distributions\Interfaces;
 
 interface DistributionInterface
 {
